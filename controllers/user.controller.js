@@ -28,6 +28,7 @@ const cookieOptions = {
     maxAge: 1000 * 60 * 60 * 24 * 30,
     httpOnly: true,
     sameSite: 'lax',
+    domain: '.netlify.app'
 }
 
 class AuthController {
